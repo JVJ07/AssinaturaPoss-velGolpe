@@ -1,7 +1,7 @@
 :root {
     --branco-principal: #ffffff ;
     --roxo-secundario: #750d75;
-    --botao-branco: #202de9;
+    --botao-azul: #202de9;
     --cor-de-fundo: #000000 ;
 }
    
@@ -30,5 +30,21 @@ body {
 }
 
 #logo {
-    margin-top: -100px;
+    margin-left: 10px;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 16px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block; /* Mantém display block para o botão */
+    text-align: center; /* Adiciona centralização do texto no botão */
+    border: none; /* Remove borda padrão, se houver */
+    cursor: pointer; /* Adiciona cursor pointer para indicar clicabilidade */
+    transition: background-color 0.3s; /* Adiciona transição suave para a cor de fundo */
+}
+
+.container__botao:hover {
+    background-color: darken(var(--botao-azul), 10%); /* Adiciona efeito hover para o botão */
 }
