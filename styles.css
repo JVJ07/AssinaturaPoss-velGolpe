@@ -75,31 +75,40 @@ body {
 .container__aviso  {
     color: var(--branco-principal);
     margin-left: 40px;
+    font-size: 15px;
 }
 
-    background-size: contain ;
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
 }
 
-.container {
-    height: 100vh;
+
+.container__imagem {
+    margin: -5em 0 0em 0;
 }
 
-#logo {
-    margin-left: 10px;
+.container__caixa {
+    margin: 0 6em;
 }
 
-.container__botao {
-    background-color: var(--botao-azul);
-    border-radius: 16px;
-    padding: 1em;
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
     color: var(--branco-principal);
-    display: block; /* Mantém display block para o botão */
-    text-align: center; /* Adiciona centralização do texto no botão */
-    border: none; /* Remove borda padrão, se houver */
-    cursor: pointer; /* Adiciona cursor pointer para indicar clicabilidade */
-    transition: background-color 0.3s; /* Adiciona transição suave para a cor de fundo */
+    margin-bottom: 0.1em;
 }
 
-.container__botao:hover {
-    background-color: darken(var(--botao-azul), 10%); /* Adiciona efeito hover para o botão */
+.descricao__texto {
+    color: var(--cinza-secundario);
 }
