@@ -1,5 +1,6 @@
 :root {
     --branco-principal: #ffffff ;
+    --roxo-pimário: #ad00ad;
     --roxo-secundario: #750d75;
     --botao-azul: #202de9;
     --cor-de-fundo: #000000 ;
@@ -7,7 +8,7 @@
    
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
+    color: var(--roxo-pimário);
     justify-content: flex-end;
 }
 
@@ -22,6 +23,60 @@ body {
     background-image: url(img/JFLIX.png);
     background-position: 100%;
     background-repeat: no-repeat;
+    background-size: contain ;
+}
+
+.container {
+    height: 100vh;
+}
+
+#logo {
+    margin-left: 1px;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 16px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block; /* Mantém display block para o botão */
+    text-align: center; /* Adiciona centralização do texto no botão */
+    border: none; /* Remove borda padrão, se houver */
+    cursor: pointer; /* Adiciona cursor pointer para indicar clicabilidade */
+    transition: background-color 0.3s; /* Adiciona transição suave para a cor de fundo */
+    width: 400px;
+    margin-top: -100px;
+    margin-left: 40px;
+}
+
+.container__botao2 {
+    background-color:transparent;
+    border: 2px solid var(--branco-principal);
+    border-radius: 16px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block; /* Mantém display block para o botão */
+    text-align: center; /* Adiciona centralização do texto no botão */
+    cursor: pointer; /* Adiciona cursor pointer para indicar clicabilidade */
+    transition: background-color 0.3s; /* Adiciona transição suave para a cor de fundo */
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.container__botao:hover {
+    background-color: darken(var(--botao-azul), 10%); /* Adiciona efeito hover para o botão */
+}
+
+.container__botao2:hover {
+    background-color: darken(var(--botao-azul), 10%); /* Adiciona efeito hover para o botão */
+}
+
+.container__aviso  {
+    color: var(--branco-principal);
+    margin-left: 40px;
+}
+
     background-size: contain ;
 }
 
