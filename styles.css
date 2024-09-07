@@ -1,7 +1,7 @@
 :root {
     --branco-principal: #ffffff ;
-    --roxo-pimário: #ad00ad;
-    --roxo-secundario: #750d75;
+    --roxo-pimário: #7e1bcf;
+    --roxo-secundario: #7a049e;
     --botao-azul: #202de9;
     --cor-de-fundo: #000000 ;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 #logo {
-    margin-left: 1px;
+    margin-left: 300px;
 }
 
 .container__botao {
@@ -46,7 +46,7 @@ body {
     transition: background-color 0.3s; /* Adiciona transição suave para a cor de fundo */
     width: 400px;
     margin-top: -100px;
-    margin-left: 40px;
+    margin-left: 350px;
 }
 
 .container__botao2 {
@@ -60,8 +60,8 @@ body {
     cursor: pointer; /* Adiciona cursor pointer para indicar clicabilidade */
     transition: background-color 0.3s; /* Adiciona transição suave para a cor de fundo */
     width: 400px;
-    margin-top: 10px;
-    margin-left: 40px;
+    margin-top: 20px;
+    margin-left: 350px;
 }
 
 .container__botao:hover {
@@ -74,13 +74,15 @@ body {
 
 .container__aviso  {
     color: var(--branco-principal);
-    margin-left: 40px;
-    font-size: 15px;
+    margin-left: 300px;
+    margin-top: 10px;
+    font-size: 20px;
 }
 
 .container__titulo {
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 55px;
+    font-weight: 800;
+    margin-left: 40px;
 }
 
 
@@ -94,21 +96,30 @@ body {
 
 
 .secundario__imagem {
-    width: 80%;
+    width: 40%;
 }
 
 .secundario {
     align-items: center;
-    margin: 0 10em;
+    margin: 1 10em;
 }
 
 .descricao__titulo {
-    font-weight: 700;
-    font-size: 48px;
+    font-weight: 900;
+    font-size: 150px;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
+    font-size: 50px;
+    font-weight: 2000;
+    margin-left: 1200px;
+    margin-top: -700px;
 }
 
 .descricao__texto {
-    color: var(--cinza-secundario);
+    color: var(--roxo-secundario);
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 0.1em;
+    margin-left: 1200px;
+    margin-top: 50px;
 }
