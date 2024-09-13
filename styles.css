@@ -45,8 +45,8 @@ body {
     cursor: pointer; /* Adiciona cursor pointer para indicar clicabilidade */
     transition: background-color 0.3s; /* Adiciona transição suave para a cor de fundo */
     width: 400px;
-    margin-top: -100px;
-    margin-left: 350px;
+    margin-top: -300px;
+    margin-left: 50px;
 }
 
 .container__botao2 {
@@ -61,7 +61,7 @@ body {
     transition: background-color 0.3s; /* Adiciona transição suave para a cor de fundo */
     width: 400px;
     margin-top: 20px;
-    margin-left: 350px;
+    margin-left: 50px;
 }
 
 .container__botao:hover {
@@ -74,20 +74,23 @@ body {
 
 .container__aviso  {
     color: var(--branco-principal);
-    margin-left: 300px;
+    margin-left: 50px;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 1em;
 }
 
 .container__titulo {
-    font-size: 55px;
+    font-size: 2em;
     font-weight: 800;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 
 .container__imagem {
-    margin: -5em 0 0em 0;
+    margin: -5em 0 10em 0;
+    position: relative;
+    top: -1em; 
+    left: -20em;
 }
 
 .container__caixa {
@@ -97,6 +100,17 @@ body {
 
 .secundario__imagem {
     width: 40%;
+    position: relative;
+    top: 0em; 
+    left: 1em;
+}
+
+
+.secundario__imagem2 {
+    width: 40%;
+    position: relative;
+    top: -10em; 
+    left: 50em;
 }
 
 .secundario {
@@ -111,15 +125,30 @@ body {
     margin-bottom: 0.1em;
     font-size: 50px;
     font-weight: 2000;
-    margin-left: 1200px;
-    margin-top: -700px;
+    margin-left: 15em;
+    margin-top: -9em;
 }
 
 .descricao__texto {
     color: var(--roxo-secundario);
     font-weight: 500;
-    font-size: 40px;
+    font-size: 25px;
     margin-bottom: 0.1em;
-    margin-left: 1200px;
-    margin-top: 50px;
+    margin-left: 575px;
+    margin-top: 2em;
+}
+
+.descricao__texto2 {
+    color: var(--roxo-secundario);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0.1em;
+    margin-left: 10px;
+    margin-top: 3em;
+}
+
+.secundario__botao {
+    position: relative;
+    top: -5em; 
+    left: 40em;
 }
